@@ -1,109 +1,24 @@
-.navbar-index{
-    list-style-type: none;
+body {
+    background-color: white;
+}
+.container1 {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-.navbar-item-index{
-    margin: 10px;    
-}
-.navbar-index a {
-    color: rgb(0, 0, 0);
-}
-.navbar-index a:link{
-    text-decoration: none;
-}
-.navbar-index:hover{
-    text-decoration: underline;
-}
-.google-logo-index{
-    display: flex;
-    justify-content: center;
-}
-.input-search{
-    display: flex;
-    z-index: 3;
-    position: relative;
-    min-height: 44px;
-    background: #ffffff;
-    border: 1px solid #5f6368;
-    box-shadow: none;
-    border-radius: 24px;
-    margin: 0 auto;
-    width: 584px;
-    margin-top: 30px;
-    padding-left: 15px;
-}
-.button-google {
-    background-color: #f8f9fa;
-    border: 1px solid #f8f9fa;
-    border-radius: 4px;
-    color: #3c4043;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    margin: 11px 4px;
-    padding: 0 16px;
-    line-height: 27px;
-    height: 36px;
-    min-width: 54px;
-    text-align: center;
-    cursor: pointer;
-    user-select: none;
-    
-}
-.button-center-div {
-    display: flex;
-    justify-content: center;
-}
-.h1-advance{
-    color: #d93025;
-    font: 20px;
-    font-family: arial, sans-serif;
-    font-size: 23px;
-    vertical-align: baseline;
-    margin-left: 43px;
-}
-.line {
-    color: #333333;
-}
-.find-pages {
-    font-size: 17px;
-    color: #333333;
-    font-family: Arial, sans-serif;
-}
-.div-advanced {
-    margin: 50px;
-}
-.row-input {
-    display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-    margin-left: 47px;
+    justify-content: space-between;
 }
-.left {
-    width: 200px;
-}
-.right {
-    width: 385px;
-}
-.form-control {
-    width: 185px;   
-}
-.p-advanced { 
-    font-size: 13px;
-    vertical-align: middle;
-}
-.bahar-wala-div {
+.navbar-media {
     display: flex;
+    flex-direction: row;
+    max-width: 100%;
     justify-content: flex-end;
-    width: 632px;
-    margin-top: 30px;
+    align-items: flex-end;
 }
-    
-.button-ki-class {
-    box-shadow: none;
-    background-color: #4d90fe;
-    border: 1px solid #3079ed;
-    color: #fff;
+li {
+    display: inline;
+    margin-right: 15px;
+}
+li a {
+    text-decoration: none;
+    color: inherit;
 }
