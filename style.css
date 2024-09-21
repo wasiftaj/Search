@@ -57,3 +57,10 @@ li a {
     font-size: small;
     border: none;
 }
+.btn-div input:hover {
+    background-color: rgb(218, 223, 226);
+}
+
+.big-div {
+    margin-left: 400px;
+}

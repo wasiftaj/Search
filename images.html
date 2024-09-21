@@ -8,20 +8,24 @@
     <link rel="shortcut icon" href="https://img.icons8.com/color/48/google-logo.png" type="image/x-icon">
 </head>
 <body>
-    <div>
-        <ul class="navbar-index">
-            <li class="navbar-item-index"><a href="index.html">Google</li></a>
-            <li class="navbar-item-index"><a href="advanced.html">Advanced Search</li></a>        
-        </ul>
+    <div class="navbar-index">
+        <ul>
+             <li>
+             <a href="index.html">Google</li></a>
+             <li class="navbar-item-index"><a href="advanced.html">Advanced Search</li></a>
+         </ul>
     </div>
     <div class="google-logo-index">
         <a href="images.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/640px-Google_Images_2015_logo.svg.png" alt="Google icon" style="width: 272px; height: auto;"></a> 
     </div>
-    <form action="https://google.com/search">
-        <input type="hidden" name="tbm" value="isch">
-        <input type="text" name="q" class="input-search">
-    </form>
-    <div class="button-center-div">
+    <div class="container">
+        <div class="form-div">
+            <form action="https://google.com/search">
+                <input type="hidden" name="tbm" value="isch">
+                <input type="text" name="q" class="input-search">
+            </form>
+        </div>
+    <div class="btn-div">
         <input type="submit" value="Google image" class="button-google">
     </div>
 </body>
